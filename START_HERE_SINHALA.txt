@@ -1,0 +1,20 @@
+CONNECTLY — AVIP 2026 TASK 5 UPDATED UI
+
+1. Open frontend in browser after starting the backend.
+2. Backend:
+   cd backend
+   npm install
+   npm run dev
+3. Database:
+   Run database/schema.sql in the NEW connectly-social-media Neon project.
+4. backend/.env must contain DATABASE_URL and JWT_SECRET.
+5. frontend/.env should contain:
+   VITE_API_URL=http://localhost:5000/api
+
+NEW UI / FEATURES
+- Professional social-network login with a full-screen community background.
+- Connectly social platform icon is used in the login and navigation branding.
+- Heart/Like action is red and becomes filled when liked.
+- Persistent Like and Comment notifications with unread badge.
+- Notification dropdown with mark-read and mark-all-read.
+- Facebook-inspired feed, profile, composer, search and responsive layout.
