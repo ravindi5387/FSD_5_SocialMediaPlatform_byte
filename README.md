@@ -98,14 +98,98 @@ suhitha.demo@connectly.app
 - Zod validates posts and comments.
 - Secrets belong in `.env` and must never be committed.
 
-
 ## User activity pages
+
 - `/likes` — posts the signed-in user has liked.
 - `/comments` — posts the signed-in user has commented on.
 - Explore and Photos were intentionally removed from the main navigation.
 
 ## Authentication flow
+
 Registration creates the account and redirects back to `/login`; the user must explicitly sign in before entering the protected application.
 
 ## Branding assets
+
 The login and registration states use the supplied Connectly community background artwork in `frontend/public/connectly-auth-bg.png`.
+
+## Screenshots
+
+### 1. Registration & Authentication
+
+#### Register Page
+
+![Register Page](screenshots/01registerpage.png)
+
+#### Registration Successful
+
+![Registration Successful](screenshots/02-registration-success.png)
+
+#### Login Page
+
+![Login Page](screenshots/02-login.png)
+
+---
+
+### 2. Home Feed
+
+#### Connectly Home Feed
+
+![Home Feed](screenshots/03-Homepage.png)
+
+---
+
+### 3. Creating Posts
+
+#### Create Post
+
+![Create Post](screenshots/04-create-post.png)
+
+#### Image Post
+
+![Image Post](screenshots/05-image-post.png)
+
+---
+
+### 4. Post Interactions
+
+#### Likes & Comments
+
+![Likes and Comments](screenshots/06-like-and-comment.png)
+
+#### Notifications
+
+![Notifications](screenshots/07-notification.png)
+
+---
+
+### 5. Profile Management
+
+#### Profile Editing
+
+![Profile Edit](screenshots/08-profile-edit.png)
+
+#### Updated Profile Picture
+
+![Updated Profile Picture](screenshots/11-profile-picture-updated.png)
+
+---
+
+### 6. Theme Support
+
+#### Dark Theme
+
+![Dark Theme](screenshots/09-dark-theme.png)
+
+---
+
+### 7. Database Persistence
+
+#### Neon PostgreSQL Database
+
+![Neon Database](screenshots/10-neon-database.png)
+
+---
+
+### 8. Additional Application Evidence
+
+![Additional Application Screenshot](screenshots/GithubRepo.png)
