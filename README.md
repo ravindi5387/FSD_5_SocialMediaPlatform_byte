@@ -195,5 +195,7 @@ The login and registration states use the supplied Connectly community backgroun
 ![Additional Application Screenshot](screenshots/GithubRepo.png)
 
 Live Demo: https://fsd-5-social-media-platform-byte-et.vercel.app
+
 Backend API: https://fsd-5-social-media-platform-byte.vercel.app/api
+
 GitHub: https://github.com/ravindi5387/FSD_5_SocialMediaPlatform_byte
